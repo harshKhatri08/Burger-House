@@ -1,0 +1,2107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ html, body {
+  width: 100%;
+  
+  scroll-behavior:initial;
+  
+ 
+}
+
+ 
+
+
+
+ .container {
+  width: 100%;
+  min-height: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+ }
+
+
+#nav{
+    width: 100%;
+    max-height: 100px;
+    background-color: rgb(255, 204, 2);
+    display: flex;
+    
+  /* position: sticky;
+  top: 0;
+  z-index: 999; */
+
+
+}
+.logo{
+    width: 30%;
+    min-height: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.brand{
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#white{
+    display: none;
+}
+.nav{
+    width: 70%;
+    min-height: 10vh;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    padding-right: 6rem;
+
+
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+a:hover{
+
+    font-size: 1.3rem;
+}
+
+#hero{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(255, 204, 2);
+    display: flex;
+}
+.hero-left{
+    width: 45%;
+    min-height: 100vh;
+    background-color: rgb(255, 204, 2);
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 16rem 5rem 0 5rem;
+    flex-direction: column;
+}
+
+.tagline{
+    width: 75%;
+    min-height: 15vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: .5rem;
+}
+
+#tag-line{
+    font-size: 1.7rem;
+    font-family: Bebas Neue;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: Alfa Slab One;
+    letter-spacing: .5rem;
+    line-height: 3rem;
+    padding-top: 1rem;
+    font-weight: 400;
+}
+h1 span{
+    font-size: 2.5rem;
+     font-family: Alfa Slab One;
+    letter-spacing: .5rem;
+}
+.hero-right{
+    width: 55%;
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0 0 0;
+
+}
+#header-img{
+    width: 90%;
+    height: 85%;
+    margin-top: -8rem;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.item-1{
+    width: 40%;
+    min-height: 55vh;
+    background-color: transparent;
+    border-radius: .5rem;
+      background-image: url(./images/banner-1.png);
+      padding: 1rem;
+}
+#try{
+    color: white;
+    font-size: 1.5rem;
+}
+#popular-txt{
+    color: white;
+    font-size: 1.9rem;
+
+}
+#fun-txt{
+    color: white;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    margin-top: .5rem;
+}
+#fresh-txt{
+    color: white;
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    margin-top: .5rem;
+}
+.items{
+    width: 40%;
+    min-height: 55vh;
+    background-color: transparent;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ 
+.item-2{
+    width: 100%;
+    min-height:26vh;
+    background-color: transparent;
+    border-radius: .5rem;
+    margin-bottom: 1.3rem;
+    background-image: url(./images/banner-2.png);
+    padding: 1rem;
+}
+
+ 
+.item-3{
+    width: 100%;
+    min-height:26vh;
+    background-color: transparent;
+    border-radius: .5rem; 
+      background-image: url(./images/banner-3.png);  
+      padding: 1rem;
+}
+ 
+
+.food-items{
+    width: 100%;
+    min-height: 120vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    
+
+}
+
+.tasty-txt{
+    width: 20%;
+    min-height: 8vh;
+ background-color: rgb(255, 204, 2);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
+h3{
+    font-size: 1.7rem;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    text-align: center;
+    
+    
+  
+}
+p{  
+    width: 90%;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.fooditems{
+    width: 100%;
+    min-height: 120vh;
+    background-color: transparent;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.food-1{
+    width:30%;
+    height: 55vh;
+    box-shadow: 0px 0px  5px 0px black;
+    background-color: transparent;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+ 
+#dish-1{
+    width: 50%;
+    height: 40%;
+
+}
+#dish-name{
+    font-size: 1.5rem;
+    font-family: Montserrat;
+    margin-top: 1rem;
+}
+button{
+    width: 45%;
+    height: 9vh;
+    background-color: red;
+    color: white;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}
+
+.events{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10rem 0  0 0;
+    gap: 1rem;
+  
+}
+
+.e-left{
+    width: 40%;
+    max-height: 50vh;
+    background-color: transparent;
+    padding: 1rem;
+    box-shadow: 0px 0px  5px 0px black;
+    border-radius: .5rem;
+}
+
+#discover-txt{
+    font-size: 1.5rem;
+    font-family:Bebas Neue;
+    font-weight: 400;
+}
+
+#upcoming-txt{
+    font-size: 2.6rem;
+    letter-spacing: .1rem;
+    
+}
+
+#event-info{
+    font-size: 1rem;
+    text-align: start;
+    font-family: Montserrat;
+}
+.e-right{
+    width: 40%;
+    max-height: 50vh;
+    background-color: rgb(255, 0, 111);
+    background-image: url(./images/event.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: .5rem;
+}
+
+.reservation{
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightpink;
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.images{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+ .book-table{
+    width: 50%;
+    height: 70vh;
+    background-color: transparent;
+    margin-right: 7rem;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: .5rem;
+     
+ }
+ form{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    
+ }
+
+#book-txt{
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    
+}
+
+#name{
+    width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+    border: 2px solid grey;
+
+}
+#name::placeholder{
+    color: black;
+}
+#email{
+     width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#email::placeholder{
+    color: black;
+}
+
+#date{
+   
+     width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#date::placeholder{
+    color: black;
+}
+#time{
+   
+     width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#time::placeholder{
+    color: black;
+}
+
+#quantity{
+   width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#quantity::placeholder{
+    color: black;
+}
+#book-btn{
+    width: 100%;
+    height:3rem;
+    border:none;
+    border-radius: .4rem;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+ 
+
+
+
+
+#res-1{
+    width: 30%;
+    height: 80vh;
+}
+
+.contact{
+    width: 100%;
+    min-height: 55vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    background-image: url(./images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.c-left{
+    width: 40%;
+    height:30vh;
+    background-color: transparent(255, 114, 114);
+    padding: 1rem;
+}
+
+#footer-logo{
+    width: 40%;
+    height: auto;
+}
+
+#footer-txt{
+    text-align: start;
+    margin: 1rem 0 0 0;
+    font-family: Montserrat;
+    color: white;
+    font-weight: 400;
+}
+
+.c-right{
+    width: 40%;
+    height:30vh;
+    background-color: transparent;
+}
+
+
+.location{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background-color:transparent;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+
+#map{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+.email{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+
+#e{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#add,#email-txt{
+    color: white;
+    font-weight: 400;
+}
+
+.social{
+    width: 60%;
+    height: 10vh;
+    background-color: transparent;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: .5rem;
+    padding: 1rem 0 1rem 1rem;
+}
+
+#fb,#twitter,#insta,#whatsapp{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#fb:hover{
+    color: yellow;
+}
+
+#insta:hover{
+    color: yellow;
+}
+
+#twitter:hover{
+    color: yellow;
+}
+#whatsapp:hover{
+    color: yellow;
+}
+
+
+
+.copyright{
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#copyright-txt{
+    color: white;
+}
+
+
+ .m-nav{
+    width: 100%;
+    min-height: 1100px;
+    background-color: teal;
+    display: none;
+ }
+
+#menu{
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: white;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+   #menu{
+    display: block;
+    margin-left: 10rem;
+   }
+    .m-nav{
+    width: 100%;
+    min-height: 400px;
+    background-color: transparent;
+    display: none;
+    
+ }
+
+ #m-ul{
+    width: 100%;
+    display: block;
+    
+ }
+
+ .active{
+    display: block;
+}
+ li{
+    background-color: brown;
+    color: white;
+    height: 10vh;
+    margin: .4rem;
+    text-align: center;
+    padding: 1rem 0 0 0;
+    
+ }
+#m-ul a{
+    font-size: 1.6rem;
+}
+
+
+
+#nav{
+    width: 100%;
+    max-height:12vh;
+    background-color: brown;
+    display: flex;
+    padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+
+}
+  
+  
+    .logo{
+    width: 80%;
+    min-height: 3%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+    
+}
+
+.brand{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+#black{
+    display: none;
+}
+
+#white{
+    display: block;
+    width: 80%;
+}
+ 
+.nav{
+    width: 20%;
+    min-height: 10vh;
+    background-color: rebeccapurple;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    padding-right: 6rem;
+    display: none;
+
+
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+a:hover{
+
+    font-size: 1.3rem;
+}
+
+#hero{
+    width: 100%;
+    min-height: 80%;
+    background-color: rgb(255, 204, 2);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero-left{
+    width: 100%;
+    min-height: 46vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem 5rem 1rem 5rem;
+    flex-direction: column;
+}
+
+.tagline{
+    width: 95%;
+    min-height: 15vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: .5rem;
+}
+
+#tag-line{
+    font-size: 1.9rem;
+    font-family: Bebas Neue;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: Alfa Slab One;
+    letter-spacing: .5rem;
+    line-height: 3.3rem;
+    padding-top: 1rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    text-align: center;
+}
+h1 span{
+    font-size:3rem;
+     font-family: Alfa Slab One;
+    letter-spacing: 1rem;
+}
+.hero-right{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+
+}
+#header-img{
+    width: 90%;
+    height: 85%;
+    margin-top: 1rem;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding: 1rem;
+}
+
+.item-1{
+    width: 100%;
+    min-height: 55vh;
+    background-color: transparent;
+    border-radius: .5rem;
+      background-image: url(./images/banner-1.png);
+      background-size: cover;
+      background-position: center;
+}
+#try{
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    width: 100%;
+     line-height: 1.7rem;
+     font-weight: 400;
+}
+#popular-txt{
+    color: white;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    font-weight: 400;
+
+}
+#fun-txt{
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+
+}
+#fresh-txt{
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+.items{
+    width: 100%;
+    min-height: 55vh;
+    background-color: transparent;
+    border-radius: .5rem;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+
+   
+    
+}
+
+ 
+.item-2{
+    width: 100%;
+    max-height:35vh;
+    background-color: transparent;
+    border-radius: .5rem;
+    margin-bottom: 1.3rem;
+    background-image: url(./images/banner-2.png);
+    
+    background-size: cover;
+    background-position: center;
+}
+
+ 
+.item-3{
+    width: 100%;
+    min-height:26vh;
+    background-color: transparent;
+    border-radius: .5rem; 
+      background-image: url(./images/banner-3.png);  
+      padding: 1rem;
+      background-size: cover;
+      background-position: center;
+}
+ 
+
+.food-items{
+    width: 100%;
+    min-height: 100vh;
+    background-color: greenyellow;
+}
+
+
+.food-items{
+    width: 100%;
+    min-height: 350vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    align-items: center;
+    
+
+}
+
+.tasty-txt{
+    width: 70%;
+    min-height: 10vh;
+ background-color: rgb(255, 204, 2);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
+h3{
+    font-size: 1.8rem;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    text-align: center;
+    
+    
+  
+}
+p{  
+    width: 90%;
+    font-size: .9rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.fooditems{
+    width: 100%;
+    min-height: 175vh;
+    background-color: transparent;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+ 
+ 
+.food-1{
+    width:100%;
+    height: 50vh;
+    box-shadow: 1px 1px  10px .5px black;
+    background-color: transparent;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+ 
+#dish-1{
+    width: 50%;
+    height: 40%;
+
+}
+#dish-name{
+    font-size: 1.3rem;
+    font-family: Montserrat;
+    margin-top: 1rem;
+    text-align: center;
+}
+button{
+    width: 45%;
+    height: 9vh;
+    background-color: red;
+    color: white;
+    font-family: Montserrat;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}
+
+
+.events{
+    width: 100%;
+    min-height: 120vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    padding: 1rem 0  0 1rem;
+    gap: 1rem;
+  
+}
+
+.e-left{
+    width: 95%;
+    max-height: 100vh;
+    background-color: transparent;
+    padding: 1rem;
+    box-shadow: 0px 0px  5px 0px black;
+    border-radius: .5rem;
+}
+
+#discover-txt{
+    font-size: 1.5rem;
+    font-family:Bebas Neue;
+    font-weight: 400;
+    text-align: center;
+}
+
+#upcoming-txt{
+    font-size: 2.6rem;
+    letter-spacing: .1rem;
+    text-align: center;
+    
+}
+
+#event-info{
+    font-size: .9rem;
+    text-align: center;
+    font-family: Montserrat;
+    text-align: center;
+}
+.e-right{
+    width: 95%;
+    height: 100vh;
+    background-color: rgb(255, 0, 111);
+    background-image: url(./images/event.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: .5rem;
+}
+
+.reservation{
+    width: 95%;
+    min-height: 90vh;
+    background-color: transparent;
+    padding-left:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images{
+    width: 100%;
+    min-height: 80vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ .book-table{
+    width: 100%;
+    height: 85vh;
+    background-color:transparent;
+    margin-right: 0rem;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: .5rem;
+     
+ }
+ form{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem;
+    
+ }
+
+#book-txt{
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    
+}
+
+#name{
+    width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+    border: 2px solid grey;
+
+}
+#name::placeholder{
+    color: black;
+}
+#email{
+     width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#email::placeholder{
+    color: black;
+}
+
+#date{
+   
+     width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#date::placeholder{
+    color: black;
+}
+#time{
+   
+     width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#time::placeholder{
+    color: black;
+}
+
+#quantity{
+   width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#quantity::placeholder{
+    color: black;
+}
+#book-btn{
+    width: 100%;
+    height:3rem;
+    border:none;
+    border-radius: .4rem;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+ 
+
+
+
+
+#res-1,#res-2{
+    width: 0%;
+    height: 0vh;
+    display: none;
+}
+
+
+.contact{
+    width: 100%;
+    min-height: 90vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    gap: 0rem;
+    align-items: center;
+    background-image: url(./images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+
+.c-left{
+    width: 100%;
+    height:35vh;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+#footer-logo{
+    width: 60%;
+    height: auto;
+}
+
+#footer-txt{
+    text-align: center;
+    margin: 4rem 0 0 0;
+    font-family: Montserrat;
+    color: white;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.c-right{
+    width: 100%;
+    height:35vh;
+     padding: 1rem 0 0 0;
+    background-color: transparent;
+}
+
+
+.location{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background-color:transparent;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+
+#map{
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+.email{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+
+#e{
+    color: white;
+    font-size: 1rem;
+}
+
+#add,#email-txt{
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.social{
+    width: 60%;
+    height: 10vh;
+    background-color: transparent;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    padding: 1rem 0 1rem 1rem;
+}
+
+#fb,#twitter,#insta,#whatsapp{
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#fb:hover{
+    color: yellow;
+}
+
+#insta:hover{
+    color: yellow;
+}
+
+#twitter:hover{
+    color: yellow;
+}
+#whatsapp:hover{
+    color: yellow;
+}
+
+
+
+.copyright{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#copyright-txt{
+    color: white;
+    font-size: 1rem;
+}
+
+
+}
+
+
+
+@media (min-width:601px) and (max-width:900px) {
+    #menu{
+    display: block;
+    margin-left: 10rem;
+    font-size: 3rem;
+   }
+
+
+      .m-nav{
+    width: 100%;
+    min-height: 400px;
+    background-color: transparent;
+    display: none;
+    
+ }
+.active{
+    display: block;
+}
+ #m-ul{
+    width: 100%;
+    display: block;
+    
+ }
+ li{
+    background-color: brown;
+    height: 10vh;
+    margin: .4rem;
+    text-align: center;
+    padding: 1rem 0 0 0;
+    color: white;
+    
+ }
+#m-ul a{
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+  .container {
+    padding: 0 0rem;
+  }
+
+
+     
+#nav{
+    width: 100%;
+    max-height:16vh;
+    background-color: brown;
+    display: flex;
+    padding: 1rem;
+  /* position: sticky;
+  top: 0;
+  z-index: 999; */
+
+
+}
+  
+  
+    .logo{
+    width: 80%;
+    min-height: 3%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+    
+}
+
+.brand{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+#black{
+    display: none;
+}
+
+#white{
+    display: block;
+    width: 80%;
+}
+ 
+.nav{
+    width: 20%;
+    min-height: 10vh;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    padding-right: 6rem;
+    display: none;
+
+
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0rem;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+a:hover{
+
+    font-size: 1.3rem;
+}
+
+#hero{
+    width: 100%;
+    min-height: 80%;
+    background-color: rgb(255, 204, 2);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero-left{
+    width: 100%;
+    min-height: 46vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 3rem 5rem 1rem 5rem;
+    flex-direction: column;
+}
+
+.tagline{
+    width: 95%;
+    min-height: 15vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: .5rem;
+}
+
+#tag-line{
+    font-size: 1.9rem;
+    font-family: Bebas Neue;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: Alfa Slab One;
+    letter-spacing: .5rem;
+    line-height: 3.3rem;
+    padding-top: 1rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    text-align: center;
+}
+h1 span{
+    font-size:3rem;
+     font-family: Alfa Slab One;
+    letter-spacing: 1rem;
+}
+.hero-right{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+
+}
+#header-img{
+    width: 90%;
+    height: 85%;
+    margin-top: 1rem;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding: 1rem;
+}
+
+.item-1{
+    width: 100%;
+    min-height: 55vh;
+    background-color: transparent;
+    border-radius: .5rem;
+      background-image: url(./images/banner-1.png);
+      background-size: cover;
+      background-position: center;
+}
+#try{
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    width: 100%;
+     line-height: 1.7rem;
+     font-weight: 400;
+}
+#popular-txt{
+    color: white;
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    font-weight: 400;
+
+}
+#fun-txt{
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+
+}
+#fresh-txt{
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+.items{
+    width: 100%;
+    min-height: 55vh;
+    background-color: transparent;
+    border-radius: .5rem;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+
+   
+    
+}
+
+ 
+.item-2{
+    width: 100%;
+    max-height:35vh;
+    background-color: transparent;
+    border-radius: .5rem;
+    margin-bottom: 1.3rem;
+    background-image: url(./images/banner-2.png);
+    
+    background-size: cover;
+    background-position: center;
+}
+
+ 
+.item-3{
+    width: 100%;
+    min-height:26vh;
+    background-color: transparent;
+    border-radius: .5rem; 
+      background-image: url(./images/banner-3.png);  
+      padding: 1rem;
+      background-size: cover;
+      background-position: center;
+}
+ 
+
+.food-items{
+    width: 100%;
+    min-height: 100vh;
+    background-color: greenyellow;
+}
+
+
+.food-items{
+    width: 100%;
+    min-height: 350vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    align-items: center;
+    
+
+}
+
+.tasty-txt{
+    width: 70%;
+    min-height: 10vh;
+ background-color: rgb(255, 204, 2);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
+h3{
+    font-size: 1.8rem;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    text-align: center;
+    
+    
+  
+}
+p{  
+    width: 90%;
+    font-size: .9rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.fooditems{
+    width: 100%;
+    min-height: 175vh;
+    background-color: transparent;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+ 
+ 
+.food-1{
+    width:95%;
+    height: 50vh;
+    box-shadow: 1px 1px  10px .5px black;
+    background-color: transparent;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+ 
+#dish-1{
+    width: 50%;
+    height: 50%;
+
+}
+#dish-name{
+    font-size: 1.3rem;
+    font-family: Montserrat;
+    margin-top: 1rem;
+    text-align: center;
+}
+button{
+    width: 45%;
+    height: 9vh;
+    background-color: red;
+    color: white;
+    font-family: Montserrat;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}
+
+
+.events{
+    width: 100%;
+    min-height: 120vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    padding: 1rem 0  0 1rem;
+    gap: 1rem;
+  
+}
+
+.e-left{
+    width: 95%;
+    max-height: 100vh;
+    background-color: transparent;
+    padding: 1rem;
+    box-shadow: 0px 0px  5px 0px black;
+    border-radius: .5rem;
+}
+
+#discover-txt{
+    font-size: 1.5rem;
+    font-family:Bebas Neue;
+    font-weight: 400;
+    text-align: center;
+}
+
+#upcoming-txt{
+    font-size: 2.6rem;
+    letter-spacing: .1rem;
+    text-align: center;
+    
+}
+
+#event-info{
+    font-size: .9rem;
+    text-align: center;
+    font-family: Montserrat;
+    text-align: center;
+}
+.e-right{
+    width: 95%;
+    height: 100vh;
+    background-color: rgb(255, 0, 111);
+    background-image: url(./images/event.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: .5rem;
+}
+
+.reservation{
+    width: 95%;
+    min-height: 50vh;
+    background-color: transparent;
+    padding-left:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images{
+    width: 100%;
+    min-height: 80vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ .book-table{
+    width: 100%;
+    height: 70vh;
+    background-color:transparent;
+    margin-right: 0rem;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: .5rem;
+     
+ }
+ form{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem;
+    
+ }
+
+#book-txt{
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    
+}
+
+#name{
+    width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+    border: 2px solid grey;
+
+}
+#name::placeholder{
+    color: black;
+}
+#email{
+     width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#email::placeholder{
+    color: black;
+}
+
+#date{
+   
+     width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#date::placeholder{
+    color: black;
+}
+#time{
+   
+     width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#time::placeholder{
+    color: black;
+}
+
+#quantity{
+   width: 100%;
+    height:2.5rem;
+    border:none;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-family:Montserrat;
+      border: 2px solid grey;
+}
+#quantity::placeholder{
+    color: black;
+}
+#book-btn{
+    width: 100%;
+    height:3rem;
+    border:none;
+    border-radius: .4rem;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+ 
+
+
+
+
+#res-1,#res-2{
+    width: 0%;
+    height: 0vh;
+    display: none;
+}
+
+
+.contact{
+    width: 100%;
+    min-height: 90vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    gap: 0rem;
+    align-items: center;
+    background-image: url(./images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+
+.c-left{
+    width: 100%;
+    height:35vh;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+#footer-logo{
+    width: 40%;
+    height: 60px;
+    margin-left: 15px;
+}
+
+#footer-txt{
+    text-align: center;
+    margin: 4rem 0 0 0;
+    font-family: Montserrat;
+    color: white;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.c-right{
+    width: 100%;
+    height:35vh;
+     padding: 1rem 0 0 0;
+    background-color: transparent;
+}
+
+
+.location{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background-color:transparent;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+
+#map{
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+.email{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+
+#e{
+    color: white;
+    font-size: 1rem;
+}
+
+#add,#email-txt{
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.social{
+    width: 60%;
+    height: 10vh;
+    background-color: transparent;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    padding: 1rem 0 1rem 1rem;
+}
+
+#fb,#twitter,#insta,#whatsapp{
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#fb:hover{
+    color: yellow;
+}
+
+#insta:hover{
+    color: yellow;
+}
+
+#twitter:hover{
+    color: yellow;
+}
+#whatsapp:hover{
+    color: yellow;
+}
+
+
+
+.copyright{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#copyright-txt{
+    color: white;
+    font-size: 1rem;
+}
+
+
+}
